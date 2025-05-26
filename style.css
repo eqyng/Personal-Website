@@ -19,6 +19,11 @@ h1 {
     font-style: normal;
     font-size: 80px;
     color: #080914;
+    letter-spacing: 0.01em;
+}
+
+.highlight-green {
+    color: #4C8A14;
 }
 
 h2 {
