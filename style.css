@@ -1,5 +1,7 @@
 body {
     font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    background-color: #FFF4E2;
 }
 
 .logo a {
@@ -20,9 +22,25 @@ h1 {
 }
 
 h2 {
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #080914;
+}
+
+h3 {
     font-family: Inria Serif, serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
+    color: #080914;
+}
+
+h4 {
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
     color: #080914;
 }
