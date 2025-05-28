@@ -4,6 +4,24 @@ body {
     background-color: #FFF4E2;
 }
 
+a:link {
+    color: #080914;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #080914;
+}
+
+a:hover {
+    color: #D36008;
+}
+
+a:active {
+    color: #D36008;
+    font-weight: 700;
+}
+
 .logo a {
     text-decoration: none;
     font-family: "UnifrakturMaguntia", cursive;
@@ -50,19 +68,3 @@ h4 {
     color: #080914;
 }
 
-a:link {
-    color: #080914;
-}
-
-a:visited {
-    color: #080914;
-}
-
-a:hover {
-    color: #D36008;
-}
-
-a:active {
-    color: #D36008;
-    font-weight: 700;
-}
