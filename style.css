@@ -7,6 +7,7 @@ body {
 a:link {
     color: #080914;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 a:visited {
@@ -38,10 +39,8 @@ h1 {
     font-size: 80px;
     color: #080914;
     letter-spacing: 0.01em;
-}
-
-.highlight-green {
-    color: #4C8A14;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -50,6 +49,8 @@ h2 {
     font-style: normal;
     font-size: 50px;
     color: #080914;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -66,5 +67,29 @@ h4 {
     font-style: normal;
     font-size: 25px;
     color: #080914;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
+.highlight-green {
+    color: #4C8A14;
+}
+
+.article-list {
+    list-style: none;
+    padding: 10;
+}
+
+.article-list li {
+    margin-bottom: 10px;
+}
+
+.article-list li a {
+    margin-bottom: 10px;
+    color: #080914;
+    text-decoration: none;
+}
+
+.article-list li a:hover {
+    color: #D36008;
+}
