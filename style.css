@@ -94,3 +94,8 @@ h4 {
 .article-list li a:hover {
     color: #D36008;
 }
+
+.footer-nav {
+    text-align: right;
+    font-size: 12px;
+}
