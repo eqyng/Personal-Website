@@ -99,3 +99,11 @@ h4 {
     text-align: right;
     font-size: 12px;
 }
+
+.studio-section h2, .studio-section h4, .cabinet-section h2, .cabinet-section h4{
+    text-align: center;
+}
+
+.library-section {
+    text-align: right;
+}
