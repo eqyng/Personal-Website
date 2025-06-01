@@ -6,6 +6,7 @@ body {
 
 .page-container {
     max-width: 1200px;
+    padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFF4E2;
@@ -16,7 +17,7 @@ body {
     padding-right: 100px;
 }
 
-.header {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +34,7 @@ body {
 }
 
 li{
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -119,7 +121,6 @@ h4 {
 }
 
 .article-list li a {
-    margin-bottom: 10px;
     color: #080914;
     text-decoration: none;
 }
@@ -136,6 +137,7 @@ h4 {
     text-align: right;
 }
 
+<!-- FOOTER -->
 .footer-content {
     text-align: left;
     font-size: 15px;
