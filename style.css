@@ -22,9 +22,18 @@ body {
     align-items: center;
 }
 
+.page-section {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
 .hero-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+li{
+    padding-bottom: 20px;
 }
 
 a:link {
@@ -119,15 +128,22 @@ h4 {
     color: #D36008;
 }
 
-.footer-nav {
-    text-align: right;
-    font-size: 12px;
-}
-
 .studio-section h2, .studio-section h4, .cabinet-section h2, .cabinet-section h4{
     text-align: center;
 }
 
 .library-section {
     text-align: right;
+}
+
+.footer-content {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-nav {
+    text-align: right;
+    font-size: 15px;
 }
