@@ -96,7 +96,7 @@ h3 {
     font-family: Inria Serif, serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
     color: #080914;
     text-align: right;
 }
@@ -148,6 +148,36 @@ h4 {
 
 .article-list li a:hover {
     color: #D36008;
+}
+
+.garden-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#glasshouse .static-carousel-container {
+    display: flex;
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+#library .section-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#library .static-carousel-container {
+    display: flex;
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
 }
 
 .studio-section h2, .studio-section h4, .cabinet-section h2, .cabinet-section h4{
