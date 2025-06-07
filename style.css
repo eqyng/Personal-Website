@@ -9,7 +9,7 @@ body {
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #164bff;
+    /*background-color: #164bff;*/
 
 }
 
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .main-nav-items {
@@ -143,7 +143,7 @@ p {
 .page-main {
     padding-left: 100px;
     padding-right: 100px;
-    background-color: green;
+    /*background-color: green;*/
 }
 
 .page-section {
@@ -154,6 +154,7 @@ p {
 .hero-section {
     padding-top: 200px;
     padding-bottom: 200px;
+    border-bottom: 1px solid #B7B7B7;
 }
 
 .article-list {
@@ -276,7 +277,7 @@ p {
 
 #library .static-carousel-container {
     display: flex;
-    background-color: pink;
+    /*background-color: pink;*/
     width: 500px;
     height: 300px;
     border: 1px solid #ccc;
@@ -307,19 +308,19 @@ p {
 #cabinet .curiosity-item {
     background-color: pink;
     width: 240px;
-    height: 200px;
+    height: 180px;
     border: 1px solid #ccc;
     border-radius: 15px;
     text-align: center;
 }
 
 #cabinet .curiosity-item h6 {    
-    margin-top: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 130px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
-/* <<<<<<< FOOTER >>>>>> */ 
+/* <<<<<<<<<<<<<<<<<< FOOTER >>>>>>>>>>>>>>>>>> */ 
 .footer-content {
     text-align: left;
     font-size: 15px;
@@ -328,6 +329,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    border-top: 1px solid #D36008;
 }
 
 .footer-content .footer-text {
