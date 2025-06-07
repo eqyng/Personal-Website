@@ -140,7 +140,7 @@ p {
 
 .page-section {
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .hero-section {
@@ -230,7 +230,12 @@ p {
     text-align: center;
 }
 
-.studio-section h2, .studio-section h4, .cabinet-section h2, .cabinet-section h4{
+.studio-section h2, .cabinet-section h2 {
+    text-align: center;
+}
+
+.studio-section h4, .cabinet-section h4 {
+    margin-bottom: 40px;
     text-align: center;
 }
 
