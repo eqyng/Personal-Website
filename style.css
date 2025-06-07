@@ -166,36 +166,6 @@ p {
     color: #D36008;
 }
 
-.garden-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#glasshouse .static-carousel-container {
-    display: flex;
-    background-color: pink;
-    width: 500px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-}
-
-#library .section-content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#library .static-carousel-container {
-    display: flex;
-    background-color: pink;
-    width: 500px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-}
-
 .card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -230,6 +200,38 @@ p {
     text-align: center;
 }
 
+
+/* <<<<<<<<<<<<<<<<<< GLASSHOUSE >>>>>>>>>>>>>>>>>> */
+.glasshouse-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#glasshouse .static-carousel-container {
+    display: flex;
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+#glasshouse h5 {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #B7B7B7;
+}
+
+#glasshouse h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+
+/* <<<<<<<<<<<<<<<<<< STUDIO >>>>>>>>>>>>>>>>>> */
 .studio-section h2, .cabinet-section h2 {
     text-align: center;
 }
@@ -239,11 +241,61 @@ p {
     text-align: center;
 }
 
+/* <<<<<<<<<<<<<<<<<< LIBRARY >>>>>>>>>>>>>>>>>> */
+.library-section h4 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.library-section h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
 .library-section {
     text-align: right;
 }
 
-/* FOOTER */ 
+#library .section-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#library .static-carousel-container {
+    display: flex;
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+#library h5 {
+    text-align: left;
+    margin-left: 20px;
+    color: #B7B7B7;
+}
+
+#library h3.byline {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 0;
+}
+
+/* <<<<<<<<<<<<<<<<<< CABINET >>>>>>>>>>>>>>>>>> */
+
+
+
+
+
+/* <<<<<<< FOOTER >>>>>> */ 
 .footer-content {
     text-align: left;
     font-size: 15px;
