@@ -197,9 +197,11 @@ p {
 }
 
 .card-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
 }
 
 .card-item {
@@ -211,8 +213,21 @@ p {
     text-align: center;
 }
 
-.card-item li {
-    list-style: none;
+.card-item h5 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.card-item a {
+    text-decoration: none;
+}
+
+.card-item p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: center;
 }
 
 .studio-section h2, .studio-section h4, .cabinet-section h2, .cabinet-section h4{
