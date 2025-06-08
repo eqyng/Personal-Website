@@ -414,3 +414,23 @@ p {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px 20px;
 }
+
+/* <<<<<<<<<<<<<<<<<< ABOUT >>>>>>>>>>>>>>>>>> */
+
+#about h2.about-title {
+    padding-left: 50px;
+}
+
+
+#about h3.about-quote {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#about .about-content {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 100px;
+}
+
