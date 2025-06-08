@@ -20,9 +20,37 @@ body {
     /*background-color: red;*/
 }
 
-.main-nav-items {
+/* OBSERVATORY DROPDOWN NAV */
+.nav-list .dropdown {
+    position: relative;
 }
 
+.dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Positioned below the dropdown */
+    left: 0;
+    background-color: transparent;
+    border: none;
+    list-style: none;
+}
+
+.nav-list .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #080914;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    color: #D36008;
+}
+
+/* OBSERVATORY & ABOUT NAV */
 .main-nav-items .nav-list {
     list-style: none;
     padding: 0;
@@ -420,7 +448,6 @@ p {
 #about h2.about-title, h4.about-subtitle {
     padding-left: 50px;
 }
-
 
 #about h3.about-quote {
     text-align: center;
