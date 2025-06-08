@@ -28,10 +28,10 @@ body {
 .dropdown-menu {
     display: none; /* Hidden by default */
     position: absolute;
-    top: 100%; /* Positioned below the dropdown */
-    left: 0;
-    background-color: transparent;
-    border: none;
+    background-color: #FFF4E2;
+    border: 1px solid #B7B7B7;
+    border-radius: 10px;
+    padding: 10px;
     list-style: none;
 }
 
@@ -40,10 +40,9 @@ body {
 }
 
 .dropdown-menu li a {
-    display: block;
-    padding: 10px 20px;
     color: #080914;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .dropdown-menu li a:hover {
@@ -57,11 +56,8 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
+    gap: 70px;
     padding-right: 0px;
-}
-
-.main-nav-items .nav-list li{
-    margin-left: 70px;
 }
 
 li{
