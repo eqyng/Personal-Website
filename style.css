@@ -30,9 +30,10 @@ body {
     position: absolute;
     background-color: #FFF4E2;
     border: 1px solid #B7B7B7;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 5px;
+    padding-left: 25px;
     list-style: none;
+    min-width: 110px;
 }
 
 .nav-list .dropdown:hover .dropdown-menu {
@@ -42,7 +43,8 @@ body {
 .dropdown-menu li a {
     color: #080914;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
+    padding-bottom: 10px;
 }
 
 .dropdown-menu li a:hover {
@@ -56,13 +58,8 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 70px; /* Space between nav items */
     padding-right: 0px;
-}
-
-li{
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 a:link {
@@ -309,6 +306,11 @@ p {
     padding-left: 100px;
 }
 
+#glasshouse li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* <<<<<<<<<<<<<<<<<< STUDIO >>>>>>>>>>>>>>>>>> */
 .studio-section {
     padding-bottom: 100px;
@@ -377,6 +379,11 @@ p {
     font-size: 20px;
     line-height: 0;
     font-style: italic;
+}
+
+#library li {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* <<<<<<<<<<<<<<<<<< CABINET >>>>>>>>>>>>>>>>>> */
