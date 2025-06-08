@@ -390,8 +390,8 @@ p {
 .footer-content {
     text-align: left;
     font-size: 15px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
