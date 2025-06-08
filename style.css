@@ -417,7 +417,7 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< ABOUT >>>>>>>>>>>>>>>>>> */
 
-#about h2.about-title {
+#about h2.about-title, h4.about-subtitle {
     padding-left: 50px;
 }
 
