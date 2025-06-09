@@ -17,6 +17,7 @@ body {
     justify-content: space-between;
     background-color: red;
     align-items: center;
+    padding: 10px 0;
 }
 
 /* OBSERVATORY DROPDOWN NAV */
@@ -69,6 +70,11 @@ body {
     align-items: center;
     gap: 70px; /* Space between nav items */
     padding-right: 0px;
+}
+
+.main-nav-items h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a:link {
@@ -182,8 +188,8 @@ p {
 }
 
 .hero-section {
-    padding-top: 130px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 160px;
     border-bottom: 1px solid #B7B7B7;
 }
 
