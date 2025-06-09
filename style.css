@@ -287,6 +287,21 @@ p {
     padding-top: 100px;
 }
 
+.glasshouse-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.glasshouse-title-container h2 {
+    margin: 0;
+}
+
+.glasshouse-title-container img {
+   width: 35px;
+   height: 35px;
+}
+
 #glasshouse .static-carousel-container {
     display: flex;
     width: 500px;
