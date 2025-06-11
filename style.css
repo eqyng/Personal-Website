@@ -195,7 +195,7 @@ p {
 .article-list {
     list-style: none;
     padding: 10;
-    background-color: green;
+    /*background-color: green;*/
 }
 
 .article-list li {
@@ -513,6 +513,10 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< INDEX GLASSHOUSE >>>>>>>>>>>>>>>>>> */
 
+.gh-latest {
+    border-bottom: 1px solid #B7B7B7;
+}
+
 .gh-latest-meta {
     display: flex;
     justify-content: space-between;
@@ -543,4 +547,22 @@ p {
     height:200px;
     background-color: pink;
     border-radius: 15px;
+}
+
+.gh-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gh-topics-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gh-topics-list a {
+    text-decoration: underline;
+    word-spacing: 4px;
 }
