@@ -556,6 +556,18 @@ p {
     padding-bottom: 100px;
 }
 
+.gh-topics-key-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gh-key-container {
+    min-width: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    outline: 1px solid #B7B7B7;
+}
+
 .gh-topics-list {
     list-style: none;
     padding: 0;
@@ -566,3 +578,4 @@ p {
     text-decoration: underline;
     word-spacing: 4px;
 }
+
