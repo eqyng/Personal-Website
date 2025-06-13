@@ -522,9 +522,6 @@ p {
     justify-content: space-between;
 }
 
-.gh-latest-text {
-}
-
 .gh-latest-select {
     /*background-color: green;*/
     border-radius: 10px;
@@ -545,8 +542,8 @@ p {
 .gh-image-container {
     width: 500px;
     height:200px;
-    background-color: pink;
     border-radius: 15px;
+    background-color: pink;
 }
 
 .gh-content {
@@ -556,20 +553,7 @@ p {
     padding-bottom: 100px;
 }
 
-.gh-topics-key-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.gh-key-container {
-    min-width: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    outline: 1px solid #B7B7B7;
-}
-
 .gh-topics-list {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -578,4 +562,39 @@ p {
     text-decoration: underline;
     word-spacing: 4px;
 }
+
+.gh-topics-key-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background-color: red;*/ 
+}
+
+.gh-key-container {
+    margin: 0px 150px 0px 150px;
+    padding: 50px 0px 55px 50px;
+    outline: 1px solid #B7B7B7;
+    border-radius: 15px;
+    /*background-color: blue;*/
+}
+
+.key-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.key-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.key-list .article-icon img {
+    filter: #447B14; /*changing the color of the icon*/
+    margin-right: 5px;
+} 
+
+
+
+
 
