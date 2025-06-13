@@ -301,6 +301,28 @@ p {
     /*background-color: yellow;*/
 }
 
+.glasshouse-title-toprow svg { /* transition effect for the arrow icon*/
+    transition: transform 0.2s ease-in-out;
+    width: 35px;
+    height: 35px;
+}
+
+.glasshouse-title-toprow svg:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.glasshouse-title-toprow a:hover.icon.arrow {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 1;
+}
+
+.glasshouse-title-toprow a:hover .icon-circle {
+    fill: #447B14;
+    stroke: #447B14;
+}
+
 .glasshouse-title-container h2 {
     margin-top: -15px;
 }
@@ -313,11 +335,6 @@ p {
 
 .glasshouse-title-subtitle {
     margin: 0px;
-}
-
-.glasshouse-title-container img {
-   width: 35px;
-   height: 35px;
 }
 
 #glasshouse .static-carousel-container {
@@ -575,6 +592,10 @@ p {
     outline: 1px solid #B7B7B7;
     border-radius: 15px;
     /*background-color: blue;*/
+}
+
+.gh-key-title {
+    margin-left: 3px;
 }
 
 .key-list {
