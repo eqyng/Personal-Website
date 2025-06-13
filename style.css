@@ -589,11 +589,15 @@ p {
     margin-bottom: 5px;
 }
 
-.key-list .article-icon img {
-    filter: #447B14; /*changing the color of the icon*/
+.key-list .article-icon img { /* adding filter property to the icon*/
+    filter:invert(28%) /*invert the color of the icon from black to white*/
+    sepia(60%) /*add a sepia tone to the icon*/
+    saturate(3686%) /*adjust the saturation of the icon*/
+    hue-rotate(70deg) /*rotate the hue of the icon around the colour wheel*/
+    brightness(96%) /*adjust the brightness of the icon*/
+    contrast(84%); /*adjust the contrast of the icon - higher makes it more muted*/
     margin-right: 5px;
 } 
-
 
 
 
