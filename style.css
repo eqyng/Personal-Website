@@ -301,21 +301,21 @@ p {
     /*background-color: yellow;*/
 }
 
-.glasshouse-title-toprow svg { /* transition effect for the arrow icon*/
+.glasshouse-title-toprow svg {
     transition: transform 0.2s ease-in-out;
     width: 35px;
     height: 35px;
+    /*stroke: #080914;*/
 }
 
-.glasshouse-title-toprow svg:hover {
-    transform: scale(1.05);
-    transition: transform 0.2s ease-in-out;
-}
-
-.glasshouse-title-toprow a:hover.icon.arrow {
+.glasshouse-title-toprow .icon-circle .icon-arrow {
     fill: none;
+    stroke: none;
+    stroke-width: 2px;
+}
+
+.glasshouse-title-toprow a:hover .icon-arrow {
     stroke: #ffffff;
-    stroke-width: 1;
 }
 
 .glasshouse-title-toprow a:hover .icon-circle {
