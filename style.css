@@ -570,6 +570,10 @@ p {
     background-color: pink;
 }
 
+.gh-content-title {
+    margin-left: 50px;
+}
+
 .gh-content {
     display: flex;
     padding-top: 100px;
