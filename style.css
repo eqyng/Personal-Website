@@ -289,7 +289,7 @@ p {
 }
 
 .glasshouse-title-container {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     /*background-color: red;*/
 }
 
@@ -335,6 +335,12 @@ p {
 
 .glasshouse-title-subtitle {
     margin: 0px;
+}
+
+.article-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 #glasshouse .static-carousel-container {
@@ -451,10 +457,6 @@ p {
 }
 
 /* <<<<<<<<<<<<<<<<<< CABINET >>>>>>>>>>>>>>>>>> */
-.cabinet-section {
-    padding-bottom: 200px;
-}
-
 #cabinet .curiosity-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -476,6 +478,9 @@ p {
     margin-right: 8px;
 }
 
+.cabinet-section {
+    padding-bottom: 200px;
+}
 
 /* <<<<<<<<<<<<<<<<<< FOOTER >>>>>>>>>>>>>>>>>> */ 
 .footer-section {
