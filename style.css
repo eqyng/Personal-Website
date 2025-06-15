@@ -576,9 +576,10 @@ p {
 
 .gh-content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     padding-top: 100px;
     padding-bottom: 100px;
+    gap: 50px;
 }
 
 .gh-topics-key-container {
@@ -599,11 +600,11 @@ p {
 }
 
 .gh-key-container {
-    margin: 0px 150px 0px 150px;
-    padding: 50px 0px 55px 50px;
+    margin: 0px 30px;
+    padding: 50px 30px;
     outline: 1px solid #B7B7B7;
     border-radius: 15px;
-    /*background-color: blue;*/
+    background-color: blue;
 }
 
 .gh-key-title {
@@ -614,6 +615,7 @@ p {
     list-style: none;
     padding: 0px;
     margin: 0px;
+    background-color: yellow;
 }
 
 .key-list li {
@@ -639,7 +641,7 @@ p {
 
 .gh-article-list {
     list-style: none;
-    padding: 0;
+    padding-bottom: 0px;
     margin: 0;
     /*background-color: green;*/
 }
