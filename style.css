@@ -641,9 +641,19 @@ p {
 
 .gh-article-list {
     list-style: none;
-    padding-bottom: 0px;
-    margin: 0;
-    /*background-color: green;*/
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+}
+
+.gh-article-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.article-icon {
+    background-color: orange;
 }
 
 
