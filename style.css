@@ -646,14 +646,19 @@ p {
     background-color: yellow;
 }
 
+.article-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+}
+
 .gh-article-list li {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-}
-
-.article-icon {
-    background-color: orange;
 }
 
 
