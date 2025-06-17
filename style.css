@@ -621,7 +621,7 @@ p {
     margin-bottom: 5px;
 }
 
-.key-list .article-icon img { /* adding filter property to the icon*/
+.article-icon img { /* adding filter property to the icon*/
     filter:invert(28%) /*invert the color of the icon from black to white*/
     sepia(60%) /*add a sepia tone to the icon*/
     saturate(3686%) /*adjust the saturation of the icon*/
