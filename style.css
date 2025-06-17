@@ -280,9 +280,21 @@ p {
 }
 
 /* <<<<<<<<<<<<<<<<<< COMPONENTS >>>>>>>>>>>>>>>>>> */
+.article-icon img { /* adding filter property to the icon*/
+    filter:invert(28%) /*invert the color of the icon from black to white*/
+    sepia(60%) /*add a sepia tone to the icon*/
+    saturate(3686%) /*adjust the saturation of the icon*/
+    hue-rotate(70deg) /*rotate the hue of the icon around the colour wheel*/
+    brightness(96%) /*adjust the brightness of the icon*/
+    contrast(84%); /*adjust the contrast of the icon - higher makes it more muted*/
+    margin-right: 5px;
+}
 
-
-
+.article-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 /* <<<<<<<<<<<<<<<<<< GLASSHOUSE >>>>>>>>>>>>>>>>>> */
 .glasshouse-section {
@@ -337,12 +349,6 @@ p {
 
 .glasshouse-title-subtitle {
     margin: 0px;
-}
-
-.article-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 #glasshouse .static-carousel-container {
@@ -621,16 +627,6 @@ p {
     margin-bottom: 5px;
 }
 
-.article-icon img { /* adding filter property to the icon*/
-    filter:invert(28%) /*invert the color of the icon from black to white*/
-    sepia(60%) /*add a sepia tone to the icon*/
-    saturate(3686%) /*adjust the saturation of the icon*/
-    hue-rotate(70deg) /*rotate the hue of the icon around the colour wheel*/
-    brightness(96%) /*adjust the brightness of the icon*/
-    contrast(84%); /*adjust the contrast of the icon - higher makes it more muted*/
-    margin-right: 5px;
-} 
-
 .gh-writing-container {
     background-color: yellow;
     margin: 0px;
@@ -643,6 +639,14 @@ p {
     background-color: yellow;
 }
 
+.gh-article-list li {
+    display: grid;
+    grid-template-columns: 30px 105px 1fr;
+    align-items: center;
+    gap: 5px;
+    background-color: red;
+}
+
 .article-icon {
     display: flex;
     align-items: center;
@@ -650,12 +654,16 @@ p {
     width: 30px;
     height: 30px;
     background-color: orange;
+    flex-shrink: 0;
 }
 
-.gh-article-list li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
+.article-icon img {
+   object-fit: contain;
+   display: block;
 }
 
-
+.gh-writing-time {
+    font-family: Sometype Mono, monospace;
+    font-size: 15px;
+    color: #222;
+}
