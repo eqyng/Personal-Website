@@ -585,12 +585,10 @@ p {
 .gh-topics-key-container {
     margin-right: 0px;
     padding-bottom: 100px;
-    background-color: red;
 }
 
 .gh-topics-list {
     padding-left: 50px;
-    background-color: blue;
     padding-bottom: 100px;
 }
 
@@ -601,10 +599,9 @@ p {
 
 .gh-key-container {
     margin: 10px 100px;
-    padding: 50px 30px;
+    padding: 30px 30px;
     outline: 1px solid #B7B7B7;
     border-radius: 15px;
-    background-color: blue;
 }
 
 .gh-key-title {
