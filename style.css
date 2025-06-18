@@ -105,6 +105,8 @@ a:active {
     color: #D36008;
 }
 
+/* <<<<<<<<<<<<<<<<<< FONTS >>>>>>>>>>>>>>>>>> */
+
 h1 {
     font-family: "Bodoni 72 Smallcaps", serif;
     font-weight: 400;
@@ -547,15 +549,14 @@ p {
     border-bottom: 1px solid #B7B7B7;
 }
 
+.gh-latest-select {
+    border-radius: 10px;
+    outline: 1.5px solid #447B14;
+}
+
 .gh-latest-meta {
     display: flex;
     justify-content: space-between;
-}
-
-.gh-latest-select {
-    /*background-color: green;*/
-    border-radius: 10px;
-    outline: 1.5px solid #447B14;
 }
 
 .gh-latest-container {
@@ -565,6 +566,7 @@ p {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
+    padding-bottom: 100px;
     width: 700px;
     height: 200px;
 }
