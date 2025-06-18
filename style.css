@@ -563,7 +563,8 @@ p {
     display: flex;
     justify-content: space-between;
     background-color: blue;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
     margin-right: 100px;
     margin-bottom: 100px;
     padding-bottom: 100px;
@@ -579,7 +580,7 @@ p {
 }
 
 .gh-content-title {
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .gh-content {
