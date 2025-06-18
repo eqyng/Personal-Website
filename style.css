@@ -560,6 +560,10 @@ p {
     background-color: yellow;
 }
 
+.gh-latest-date, .gh-latest-time {
+    margin: 0px;
+}
+
 .gh-latest-title {
     background-color: orange;
 }
