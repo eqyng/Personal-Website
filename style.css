@@ -558,11 +558,14 @@ p {
 }
 
 .gh-latest-select {
-    border-radius: 15px;
-    outline: 1px solid #447B14;
     margin: 50px 100px;
     padding:40px; 
     /*background-color: white;*/
+}
+
+.gh-latest-select:hover {
+    border-radius: 15px;
+    outline: 1px solid #447B14;
 }
 
 .gh-latest-title {
