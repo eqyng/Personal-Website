@@ -563,7 +563,7 @@ p {
     /*background-color: white;*/
 }
 
-.gh-latest-select:hover {
+.gh-latest-link:hover .gh-latest-select {
     border-radius: 15px;
     outline: 1px solid #447B14;
 }
