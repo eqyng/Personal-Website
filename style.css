@@ -564,6 +564,7 @@ p {
 .gh-latest-select {
     border-radius: 10px;
     outline: 1.5px solid #447B14;
+    background-color: white;
 }
 
 .gh-latest-title {
