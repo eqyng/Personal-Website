@@ -10,6 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- ============ HIDDEN SVG SPRITE SHEET ============ -->
+    <svg style="display: none;" xmlns="http://www.w3.org/2000/svg"> 
+        <symbol id="icon-circle-arrow-right" viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-circle-arrow-right">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <!--box-->
+        <path class="icon-circle" d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" /> <!--circle-->
+        <path class="icon-arrow" d="M16 12l-4 -4" /> <!--arrow head-->
+        <path class="icon-arrow" d="M16 12h-8" /> <!--arrow shaft-->
+        <path class="icon-arrow" d="M12 16l4 -4" /> <!--arrow head-->>
+        </symbol>
+    </svg>
+
+
     <div class="page-container">
         <header class="page-header">
             <div class="logo"> <!--not a navigation block thus div works-->
@@ -51,12 +63,8 @@
                     <div class="glasshouse-title-toprow">
                         <h2> the glasshouse</h2>
                         <a href="index-glasshouse.html">
-                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-circle-arrow-right">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <!--box-->
-                                <path class="icon-circle" d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" /> <!--circle-->
-                                <path class="icon-arrow" d="M16 12l-4 -4" /> <!--arrow head-->
-                                <path class="icon-arrow" d="M16 12h-8" /> <!--arrow shaft-->
-                                <path class="icon-arrow" d="M12 16l4 -4" /> <!--arrow head-->
+                            <svg width="24"  height="24" class="section-arrow">
+                                <use href="#icon-circle-arrow-right"></use>
                             </svg>
                         </a>
                     </div>
