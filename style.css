@@ -716,28 +716,34 @@ p {
 .lib-read-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    margin: 0px 50px;
+    padding: 0px 50px;
+    gap: 10px;
     align-items: center;
     padding-bottom: 100px;
+    background-color: red;
 }
 
 .lib-read-image-container {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
+    margin: 0px;
     border-radius: 15px;
     background-color: pink;
 }
 
-.lib-read-quote-container{
-    width: 300px;
-    height: 200px;
+.lib-read-container .static-carousel-container {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
     border-radius: 15px;
-    outline: 1px solid #447B14;
+    margin-top: 30px;
+    background-color: yellow;
 }
 
 
 .lib-hread-list {
-    grid-template-columns: 1fr 1fr;
     padding: 0px;
     margin: 0px;
     list-style: none;
@@ -754,7 +760,6 @@ p {
 }
 
 .lib-wread-list {
-    grid-template-columns: 1fr 1fr;
     padding: 0px;
     margin: 0px;
     list-style: none;
@@ -769,6 +774,8 @@ p {
     gap: 5px;
     /*background-color: red;*/
 }
+
+
 
 
 /*
