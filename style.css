@@ -715,32 +715,35 @@ p {
 
 .lib-read-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0px 50px;
-    padding: 0px 50px;
+    grid-template-columns: 200px 1fr;
+    background-color: red;
+    margin: 0px;
+/*    
+    padding: 0px;
     gap: 10px;
     align-items: center;
     padding-bottom: 100px;
-    background-color: red;
+    */
 }
 
-.lib-read-image-container {
+
+
+.lib-read-book-container {
     width: 200px;
     height: 300px;
-    margin: 0px;
     border-radius: 15px;
     background-color: pink;
 }
 
-.lib-read-container .static-carousel-container {
-    display: flex;
+.static-carousel-container {
     width: 500px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 15px;
-    margin-top: 30px;
+    margin:0px;
     background-color: yellow;
 }
+
 
 
 .lib-hread-list {
