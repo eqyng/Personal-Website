@@ -700,8 +700,7 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< INDEX LIBRARY >>>>>>>>>>>>>>>>>> */
 
-.lib-read-container {
-    border-bottom: 1px solid #B7B7B7;
+.lib-read-select {
     background-color: yellow;
 }
 
@@ -713,23 +712,25 @@ p {
 .lib-read-select .recent {
     margin-left: 50px;
     padding-top: 50px;
+    background-color: purple;
 }
 
-.lib-read-select:hover {
+.lib-read-container:hover {
     border-radius: 15px;
     transition: 0.1s ease-in-out;
     outline: 1px solid #447B14;
 }
 
 /* CONTENT CONTAINER */
-.lib-read-select {
+.lib-read-container {
     display: grid;
     grid-template-columns: 200px 1fr;
     margin: 0px;
     align-items: center;
-    padding-left: 150px;
-    padding-bottom: 100px;
+    padding: 0px;
     gap: 10px;
+    border-bottom: 1px solid #B7B7B7;
+    background-color: orange;
 }
 
 /* BOOK IMAGE */
@@ -747,12 +748,14 @@ p {
     border: 1px solid #ccc;
     border-radius: 15px;
     margin: 0px;
+    background-color: pink;
 }
 
 .static-carousel-container .quote {
     text-align: center;
     font-size: 25px;
     margin: 80px 50px 30px 50px;
+    background-color: blue;
 }
 
 .static-carousel-container .byline {
@@ -762,6 +765,7 @@ p {
     line-height: 1;
     padding: 0px;
     font-style: italic;
+    background-color: green;
 }
 
 /* HREAD & WREAD LIST */
