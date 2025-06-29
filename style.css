@@ -742,9 +742,13 @@ p {
 }
 
 .lib-hread-list {
-    padding: 0px;
+    padding-left: 50px;
     margin: 0px;
     list-style: none;
+}
+
+.lib-hread-title, .lib-wread-title {
+    padding-left: 50px;
 }
 
 .lib-hread-list li {
@@ -753,10 +757,11 @@ p {
     list-style: none;
     align-items: center;
     gap: 5px;
+    background-color: blue;
 }
 
 .lib-wread-list {
-    padding: 0px;
+    padding-left: 50px;
     margin: 0px;
     list-style: none;
 }
@@ -767,6 +772,7 @@ p {
     list-style: none;
     align-items: center;
     gap: 5px;
+    background-color: red;
 }
 
 
