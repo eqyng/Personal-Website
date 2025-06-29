@@ -703,7 +703,6 @@ p {
 .lib-reading-select {
     margin: 50px 100px;
     padding:40px; 
-    background-color: white;
 }
 
 .lib-content {
@@ -716,10 +715,11 @@ p {
 .lib-read-container {
     display: grid;
     grid-template-columns: 200px 1fr;
-    background-color: red;
     margin: 0px;
     align-items: center;
     padding-left: 150px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #B7B7B7;
     gap: 10px;
 }
 
@@ -735,15 +735,17 @@ p {
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 15px;
-    margin:0px;
-    background-color: yellow;
+    margin: 0px;
+}
+
+.lib-content {
+    padding-top: 50px;
 }
 
 .lib-hread-list {
     padding: 0px;
     margin: 0px;
     list-style: none;
-    /*background-color: blue;*/
 }
 
 .lib-hread-list li {
@@ -752,14 +754,12 @@ p {
     list-style: none;
     align-items: center;
     gap: 5px;
-    /*background-color: red;*/
 }
 
 .lib-wread-list {
     padding: 0px;
     margin: 0px;
     list-style: none;
-    /*background-color: blue;*/
 }
 
 .lib-wread-list li {
@@ -768,7 +768,6 @@ p {
     list-style: none;
     align-items: center;
     gap: 5px;
-    /*background-color: red;*/
 }
 
 
