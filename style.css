@@ -757,7 +757,6 @@ p {
     list-style: none;
     align-items: center;
     gap: 5px;
-    background-color: blue;
 }
 
 .lib-wread-list {
@@ -772,14 +771,25 @@ p {
     list-style: none;
     align-items: center;
     gap: 5px;
-    background-color: red;
+}
+
+.static-carousel-container .quote {
+    text-align: center;
+    font-size: 25px;
+    margin: 80px 50px 50px 50px;
+}
+
+.static-carousel-container .byline {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 1.2;
+    padding-left: 100px;
 }
 
 
 
-
 /*
-
 .article-icon {
     display: flex;
     align-items: center;
