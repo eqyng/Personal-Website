@@ -700,9 +700,8 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< INDEX LIBRARY >>>>>>>>>>>>>>>>>> */
 
-.lib-reading-select {
-    margin: 50px 100px;
-    padding:40px; 
+.lib-read-select {
+    padding-top: 50px;
 }
 
 .lib-content {
