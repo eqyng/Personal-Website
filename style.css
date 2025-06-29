@@ -718,15 +718,15 @@ p {
     grid-template-columns: 200px 1fr;
     background-color: red;
     margin: 0px;
+    align-items: center;
+    padding-left: 150px;
 /*    
     padding: 0px;
     gap: 10px;
-    align-items: center;
+    
     padding-bottom: 100px;
     */
 }
-
-
 
 .lib-read-book-container {
     width: 200px;
@@ -743,8 +743,6 @@ p {
     margin:0px;
     background-color: yellow;
 }
-
-
 
 .lib-hread-list {
     padding: 0px;
