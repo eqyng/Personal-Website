@@ -700,19 +700,16 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< INDEX LIBRARY >>>>>>>>>>>>>>>>>> */
 
-.lib-read-select {
-    background-color: yellow;
-}
-
 /* SELECT CONTAINER */
 .lib-read-select {
     padding-top: 50px;
+    background-color: yellow;
 }
 
-.lib-read-select .recent {
+.lib-read-select {
     margin-left: 50px;
     padding-top: 50px;
-    background-color: purple;
+    padding-left: 100px;
 }
 
 .lib-read-container:hover {
@@ -809,3 +806,8 @@ p {
     gap: 5px;
 }
 
+/* <<<<<<<<<<<<<<<<<< TEST ARTICLE >>>>>>>>>>>>>>>>>> */
+.gh-breadcrumb li a {
+    text-decoration: none;
+    color: #B7B7B7;
+}
