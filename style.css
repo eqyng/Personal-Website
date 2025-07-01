@@ -815,7 +815,7 @@ p {
 #gh-article-content {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 .gh-article-content {
@@ -828,10 +828,45 @@ p {
     background-color: red;
 }
 
-.gh-article-tiles {
+.tag {
     padding-left: 50px;
     display: flex;
     gap: 10px;
 }
 
+.gh-article-tiles {
+    width: 70px;
+    height: 20px;
+    border: 1.3px solid #CCCCCC;
+    border-radius: 15px;
+    background-color: #EEEEEE;
+}
 
+
+/*
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+
+.card-item {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #447B14;
+}
+
+.card-item h5 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.card-item a {
+    text-decoration: none;
+}
