@@ -811,3 +811,27 @@ p {
     text-decoration: none;
     color: #B7B7B7;
 }
+
+#gh-article-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: yellow;
+}
+
+.gh-article-content {
+    margin: 0px;
+    padding: 50px;
+}
+
+.gh-a-title {
+    margin: 0px;
+    background-color: red;
+}
+
+.gh-article-tiles {
+    padding-left: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+
