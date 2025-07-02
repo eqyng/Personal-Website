@@ -699,33 +699,39 @@ p {
 }
 
 /* <<<<<<<<<<<<<<<<<< INDEX LIBRARY >>>>>>>>>>>>>>>>>> */
+.lib-read-content {
+    border-bottom: 1px solid #B7B7B7;
+}
 
-/* SELECT CONTAINER */
 .lib-read-select {
+    margin: 50px 100px;
+    padding: 40px;
     padding-top: 50px;
     background-color: yellow;
+}
+
+.lib-read-link:hover .lib-read-select {
+    border-radius: 15px;
+    transition: 0.1s ease-in-out;
+    outline: 1px solid #447B14;
 }
 
 .lib-read-container {
     margin-left: 50px;
     padding-top: 50px;
     padding-left: 100px;
-  
+    background-color: white;
+    border-bottom: 1px solid #B7B7B7;
 }
 
-/*border-radius: 15px;
-    transition: 0.1s ease-in-out;
-    outline: 1px solid #447B14;*/
-
 /* CONTENT CONTAINER */
-.lib-read-container {
+.lib-book-quote-container {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 0px;
     align-items: center;
     padding: 0px;
     gap: 10px;
-    border-bottom: 1px solid #B7B7B7;
     background-color: orange;
 }
 
@@ -763,6 +769,7 @@ p {
     font-style: italic;
     background-color: green;
 }
+
 
 /* HREAD & WREAD LIST */
 .lib-hreadwread {
@@ -811,15 +818,12 @@ p {
     color: #B7B7B7;
 }
 
-#gh-article-content {
+.gh-article-content {
     padding-top: 100px;
     padding-bottom: 100px;
-    /*background-color: yellow;*/
-}
-
-.gh-article-content {
     margin: 0px;
     padding: 50px;
+    /*background-color: yellow;*/
 }
 
 .gh-a-title {
@@ -842,30 +846,3 @@ p {
 }
 
 
-/*
-.card-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-}
-
-
-.card-item {
-    width: 300px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    text-align: center;
-    background-color: #447B14;
-}
-
-.card-item h5 {
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
-
-.card-item a {
-    text-decoration: none;
-}
