@@ -699,6 +699,10 @@ p {
 }
 
 /* <<<<<<<<<<<<<<<<<< INDEX LIBRARY >>>>>>>>>>>>>>>>>> */
+.recent {
+    padding-left: 50px;
+}
+
 .lib-read-content {
     border-bottom: 1px solid #B7B7B7;
 }
@@ -723,8 +727,8 @@ p {
     display: flex;
     gap: 10px;
     margin: 0px;
-    align-items: center;
     padding: 0px;
+    align-items: center;
 }
 
 /* BOOK IMAGE */
@@ -736,7 +740,7 @@ p {
 }
 
 /* QUOTE CONTAINER & BYLINE */
-.static-carousel-container {
+.lib-read-select .static-carousel-container {
     width: 500px;
     height: 300px;
     border: 1px solid #ccc;
