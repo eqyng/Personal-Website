@@ -709,7 +709,8 @@ p {
 
 .lib-read-select {
     margin: 0px;
-    padding: 40px;
+    padding: 40px 0px 40px 0px;
+    background-color: orange;
 }
 
 .lib-read-link:hover .lib-read-select {
@@ -727,8 +728,7 @@ p {
     display: flex;
     gap: 10px;
     margin: 0px;
-    padding: 0px;
-    align-items: center;
+    padding-left: 75px;
 }
 
 /* BOOK IMAGE */
@@ -758,9 +758,9 @@ p {
 
 .static-carousel-container .byline {
     text-align: center;
-    margin: 0px;
     font-size: 20px;
     line-height: 1;
+    margin: 0px;
     padding: 0px;
     font-style: italic;
     background-color: green;
