@@ -700,6 +700,7 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< INDEX LIBRARY >>>>>>>>>>>>>>>>>> */
 .lib-read-content {
+    padding-bottom: 50px;
     border-bottom: 1px solid #B7B7B7;
 }
 
@@ -716,8 +717,7 @@ p {
 }
 
 .lib-read-container {
-    margin-left: 50px;
-    background-color: white;
+    margin: 50px;
 }
 
 /* CONTENT CONTAINER */
