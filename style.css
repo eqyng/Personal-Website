@@ -704,10 +704,9 @@ p {
 }
 
 .lib-read-select {
-    margin: 50px 100px;
+    margin: 0px;
     padding: 40px;
     padding-top: 50px;
-    background-color: yellow;
 }
 
 .lib-read-link:hover .lib-read-select {
@@ -718,20 +717,16 @@ p {
 
 .lib-read-container {
     margin-left: 50px;
-    padding-top: 50px;
-    padding-left: 100px;
     background-color: white;
-    border-bottom: 1px solid #B7B7B7;
 }
 
 /* CONTENT CONTAINER */
 .lib-book-quote-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    gap: 10px;
     margin: 0px;
     align-items: center;
     padding: 0px;
-    gap: 10px;
     background-color: orange;
 }
 
@@ -812,7 +807,7 @@ p {
     gap: 5px;
 }
 
-/* <<<<<<<<<<<<<<<<<< TEST ARTICLE >>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<< GLASSHOUSE TEST ARTICLE >>>>>>>>>>>>>>>>>> */
 .gh-breadcrumb li a {
     text-decoration: none;
     color: #B7B7B7;
