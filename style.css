@@ -706,17 +706,16 @@ p {
     background-color: yellow;
 }
 
-.lib-read-select {
+.lib-read-container {
     margin-left: 50px;
     padding-top: 50px;
     padding-left: 100px;
+  
 }
 
-.lib-read-container:hover {
-    border-radius: 15px;
+/*border-radius: 15px;
     transition: 0.1s ease-in-out;
-    outline: 1px solid #447B14;
-}
+    outline: 1px solid #447B14;*/
 
 /* CONTENT CONTAINER */
 .lib-read-container {
