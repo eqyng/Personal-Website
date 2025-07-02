@@ -700,14 +700,12 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< INDEX LIBRARY >>>>>>>>>>>>>>>>>> */
 .lib-read-content {
-    padding-bottom: 50px;
     border-bottom: 1px solid #B7B7B7;
 }
 
 .lib-read-select {
     margin: 0px;
     padding: 40px;
-    padding-top: 50px;
 }
 
 .lib-read-link:hover .lib-read-select {
@@ -717,7 +715,7 @@ p {
 }
 
 .lib-read-container {
-    margin: 50px;
+    margin: 20px 50px 50px 50px;
 }
 
 /* CONTENT CONTAINER */
@@ -727,7 +725,6 @@ p {
     margin: 0px;
     align-items: center;
     padding: 0px;
-    background-color: orange;
 }
 
 /* BOOK IMAGE */
