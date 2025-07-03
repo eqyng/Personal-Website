@@ -714,14 +714,13 @@ p {
 }
 
 .lib-read-select {
-    margin: 0px;
-    margin-left: 220px;
+    margin-left: 170px;
+    padding: 30px;
     display: inline-block;
 }
 
 .lib-read-container {
-    margin: 0px 0px 50px 0px;
-    padding: 20px 0px 40px 0px;
+    margin-bottom: 40px;
 }
 
 /* CONTENT CONTAINER */
@@ -736,7 +735,7 @@ p {
     width: 200px;
     height: 252px;
     border-radius: 10px;
-    background-color: pink;
+    background-color: #BEDCA4;
 }
 
 /* QUOTE CONTAINER & BYLINE */
@@ -746,7 +745,7 @@ p {
     border: 1px solid #ccc;
     border-radius: 10px;
     margin: 0px;
-    background-color: pink;
+    background-color: #BEDCA4;
 }
 
 .static-carousel-container .quote {
