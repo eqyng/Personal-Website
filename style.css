@@ -763,6 +763,10 @@ p {
     font-style: italic;
 }
 
+.lib-read-book-title {
+    text-align: center;
+}
+
 
 /* HREAD & WREAD LIST */
 .lib-hreadwread {
