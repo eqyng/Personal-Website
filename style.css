@@ -774,6 +774,7 @@ p {
     gap: 50px;
     padding-bottom: 100px;
     padding-top: 50px;
+    margin-left: 50px;
 }
 
 .lib-hread-list {
@@ -782,8 +783,12 @@ p {
     list-style: none;
 }
 
-.lib-hread-title, .lib-wread-title {
+.lib-hread-title {
     padding-left: 50px;
+}
+
+.lib-wread-title {
+    padding-left: 60px;
 }
 
 .lib-hread-list li {
@@ -791,11 +796,11 @@ p {
     grid-template-columns: 30px 100px 80px 50px;
     list-style: none;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .lib-wread-list {
-    padding-left: 50px;
+    padding-left: 60px;
     margin: 0px;
     list-style: none;
 }
