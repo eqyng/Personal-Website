@@ -707,19 +707,21 @@ p {
     border-bottom: 1px solid #B7B7B7;
 }
 
-.lib-read-select {
-    margin: 0px;
-    padding: 40px 0px 40px 0px;
-}
-
 .lib-read-link:hover .lib-read-select {
     border-radius: 15px;
     transition: 0.1s ease-in-out;
     outline: 1px solid #447B14;
 }
 
+.lib-read-select {
+    margin: 0px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
 .lib-read-container {
-    margin: 20px 50px 50px 50px;
+    margin: 20px 0px 50px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 /* CONTENT CONTAINER */
@@ -727,7 +729,6 @@ p {
     display: flex;
     gap: 10px;
     margin: 0px;
-    padding-left: 75px;
 }
 
 /* BOOK IMAGE */
