@@ -160,7 +160,7 @@ h6 {
     font-family: Sometype Mono, monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 13px;
+    font-size: 12px;
     color: #080914;
 }
 
@@ -710,7 +710,6 @@ p {
 .lib-read-select {
     margin: 0px;
     padding: 40px 0px 40px 0px;
-    background-color: orange;
 }
 
 .lib-read-link:hover .lib-read-select {
@@ -734,15 +733,15 @@ p {
 /* BOOK IMAGE */
 .lib-read-book-container {
     width: 200px;
-    height: 300px;
+    height: 250px;
     border-radius: 15px;
     background-color: pink;
 }
 
 /* QUOTE CONTAINER & BYLINE */
 .lib-read-select .static-carousel-container {
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     border: 1px solid #ccc;
     border-radius: 15px;
     margin: 0px;
@@ -751,19 +750,17 @@ p {
 
 .static-carousel-container .quote {
     text-align: center;
-    font-size: 25px;
-    margin: 80px 50px 30px 50px;
-    background-color: blue;
+    font-size: 18px;
+    margin: 60px 50px 30px 50px;
 }
 
 .static-carousel-container .byline {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1;
     margin: 0px;
     padding: 0px;
     font-style: italic;
-    background-color: green;
 }
 
 
