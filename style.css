@@ -820,23 +820,9 @@ p {
     color: #B7B7B7;
 }
 
-.gh-article-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.gh-a-heading {
     margin: 0px;
-    padding: 50px;
-    /*background-color: yellow;*/
-}
-
-.gh-a-title {
-    margin: 0px;
-    background-color: red;
-}
-
-.tag {
-    padding-left: 50px;
-    display: flex;
-    gap: 10px;
+    text-align: center;
 }
 
 .gh-article-tiles {
@@ -845,6 +831,19 @@ p {
     border: 1.3px solid #CCCCCC;
     border-radius: 15px;
     background-color: #EEEEEE;
+
 }
+
+.tag {
+    display: flex;
+    gap: 10px;
+}
+
+.gh-body {
+    margin: 50px;
+    padding: 50px;
+    background-color: yellow;
+}
+
 
 
