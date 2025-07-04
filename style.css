@@ -822,16 +822,15 @@ p {
 
 .gh-a-heading {
     margin: 0px;
-    text-align: center;
+    padding-left: 150px;
 }
 
 .gh-article-tiles {
-    width: 70px;
-    height: 20px;
+    display: inline-block;
+    padding: 6px 20px;
     border: 1.3px solid #CCCCCC;
     border-radius: 15px;
     background-color: #EEEEEE;
-
 }
 
 .tag {
@@ -840,8 +839,7 @@ p {
 }
 
 .gh-body {
-    margin: 50px;
-    padding: 50px;
+    margin: 50px 150px 50px 150px;
     border-bottom: 1px solid #B7B7B7;
     background-color: yellow;
 }
