@@ -842,6 +842,7 @@ p {
 .gh-body {
     margin: 50px;
     padding: 50px;
+    border-bottom: 1px solid #B7B7B7;
     background-color: yellow;
 }
 
