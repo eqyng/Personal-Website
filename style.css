@@ -838,9 +838,11 @@ p {
     gap: 10px;
 }
 
-.gh-body {
+.gh-body p {
     margin: 50px 150px 50px 150px;
     padding-bottom: 50px;
+    line-height: 2;
+    font-size: 18px;
     border-bottom: 1px solid #B7B7B7;
     background-color: yellow;
 }
