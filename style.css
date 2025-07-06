@@ -827,14 +827,15 @@ p {
 
 .gh-article-tiles {
     display: inline-block;
-    padding: 6px 20px;
+    margin-left: 150px;
+    font-size: 2rem;
+    padding: 10px 20px;
     border: 1.3px solid #CCCCCC;
     border-radius: 15px;
     background-color: #EEEEEE;
 }
 
 .tag {
-    display: flex;
     gap: 10px;
 }
 
