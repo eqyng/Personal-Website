@@ -815,9 +815,13 @@ p {
 }
 
 /* <<<<<<<<<<<<<<<<<< GLASSHOUSE TEST ARTICLE >>>>>>>>>>>>>>>>>> */
-.gh-breadcrumb li a {
+.gh-breadcrumb li a{
     text-decoration: none;
     color: #B7B7B7;
+}
+
+.gh-breadcrumb li a:hover {
+    color: #D36008;
 }
 
 .gh-a-heading {
