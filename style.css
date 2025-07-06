@@ -815,14 +815,49 @@ p {
 }
 
 /* <<<<<<<<<<<<<<<<<< GLASSHOUSE TEST ARTICLE >>>>>>>>>>>>>>>>>> */
-.gh-breadcrumb li a{
-    text-decoration: none;
+.gh-breadcrumb a{
     color: #B7B7B7;
+}
+
+.gh-breadcrumb ul{
+    text-decoration: none;
 }
 
 .gh-breadcrumb li a:hover {
     color: #D36008;
 }
+
+.gh-toc-container { /*cursor*/ 
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.gh-toc { /*cursor*/
+    min-width: 220px;
+    max-width: 260px;
+    background: #f7f7ed;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+    padding: 18px 24px;
+    font-size: 1.1rem;
+    position: sticky;
+    top: 40px;
+}
+
+.gh-toc h5 { /*cursor*/
+    margin: 0 0 12px 0;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    color: #888;
+    font-weight: bold;
+  }
+
+  .gh-toc ul { /*cursor*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
 .gh-a-heading {
     margin: 0px;
