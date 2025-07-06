@@ -843,12 +843,16 @@ p {
     gap: 10px;
 }
 
-.gh-body p {
-    margin: 50px 150px 50px 150px;
+.gh-body {
+    margin: 50px 130px 50px 130px;
     padding-bottom: 50px;
-    line-height: 2;
-    font-size: 18px;
     border-bottom: 1px solid #B7B7B7;
+    background-color: yellow;
+}
+
+.gh-body p {
+    line-height: 2;
+    font-size: 19px;
     background-color: yellow;
 }
 
