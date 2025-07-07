@@ -818,6 +818,7 @@ p {
 .gh-breadcrumb a, .gh-breadcrumb li, .gh-breadcrumb ul {
     color: #B7B7B7;
     list-style: none;
+    margin: 0px;
     background-color: pink;
 }
 
