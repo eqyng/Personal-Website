@@ -881,7 +881,7 @@ p {
 
 .gh-a-heading {
     margin: 0px;
-    padding-left: 150px;
+    padding-left: 20px;
     background-color: orange;
 }
 
@@ -900,7 +900,7 @@ p {
 }
 
 .gh-body {
-    margin: 50px 130px 50px 130px;
+    margin: 50px 20px 50px 5px;
     padding-bottom: 50px;
     border-bottom: 1px solid #B7B7B7;
     background-color: yellow;
