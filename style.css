@@ -828,6 +828,7 @@ p {
 .gh-toc-container { /*cursor*/ 
     display: flex;
     align-items: flex-start;
+    padding-top: 50px;
     gap: 30px;
     background-color: green;
 }
