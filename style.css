@@ -885,6 +885,12 @@ p {
     background-color: orange;
 }
 
+.gh-a-byline {
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 95px;
+}
+
 .gh-article-tiles {
     display: inline-block;
     margin-left: 150px;
