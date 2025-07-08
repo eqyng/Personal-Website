@@ -915,6 +915,7 @@ p {
 
 .gh-body {
     margin: 50px 20px 50px 5px;
+    padding-top: 30px;
     padding-bottom: 50px;
     border-bottom: 1px solid #B7B7B7;
     border-top: 1px solid #B7B7B7;
