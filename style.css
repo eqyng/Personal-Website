@@ -902,7 +902,7 @@ p {
 .gh-article-tiles {
     display: flex;
     gap: 10px;
-    margin-left: 150px;
+    margin-left: 90px;
     padding: 0px;
 }
 
@@ -914,6 +914,11 @@ p {
     background-color: #EEEEEE;
     font-size: 2rem;
     transition: background-color 0.2s;
+}
+
+.tag p {
+    margin: 4px;
+    color: #B7B7B7;
 }
 
 .tag:hover {
