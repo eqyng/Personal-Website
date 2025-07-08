@@ -849,6 +849,11 @@ p {
     top: 40px;
 }
 
+.gh-toc-heading {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #B7B7B7;
+}
+
 .gh-toc h5 { /*cursor*/
     margin: 0 0 12px 0;
     font-size: 1rem;
