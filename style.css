@@ -183,6 +183,7 @@ p {
     /*background-color: green;*/
 }
 
+
 .page-section {
     padding-top: 10px;
     padding-bottom: 80px;
@@ -815,9 +816,16 @@ p {
 }
 
 /* <<<<<<<<<<<<<<<<<< GLASSHOUSE TEST ARTICLE >>>>>>>>>>>>>>>>>> */
+.article-main {
+    padding-left: 0px;
+    padding-right: 100px;
+}
+
 .gh-main-container {
     display: flex;
     gap: 30px;
+    margin: 0px;
+    background-color: pink;
 }
 
 .gh-breadcrumb a, .gh-breadcrumb li, .gh-breadcrumb ul {
