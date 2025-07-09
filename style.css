@@ -817,15 +817,15 @@ p {
 
 /* <<<<<<<<<<<<<<<<<< GLASSHOUSE TEST ARTICLE >>>>>>>>>>>>>>>>>> */
 .article-main {
-    padding-left: 0px;
-    padding-right: 100px;
+    margin: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .gh-main-container {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     margin: 0px;
-    background-color: pink;
 }
 
 .gh-breadcrumb a, .gh-breadcrumb li, .gh-breadcrumb ul {
