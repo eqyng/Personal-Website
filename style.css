@@ -832,6 +832,7 @@ p {
     color: #B7B7B7;
     list-style: none;
     margin: 0px;
+    padding-top: 10px;
 }
 
 .gh-breadcrumb li a:hover {
