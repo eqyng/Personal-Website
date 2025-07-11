@@ -818,8 +818,8 @@ p {
 /* <<<<<<<<<<<<<<<<<< GLASSHOUSE TEST ARTICLE >>>>>>>>>>>>>>>>>> */
 .article-main {
     margin: 0px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 0px;
+    padding-right: 100px;
 }
 
 .gh-main-container {
