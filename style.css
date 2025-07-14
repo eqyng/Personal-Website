@@ -466,16 +466,11 @@ p {
 /* <<<<<<<<<<<<<<<<<< LIBRARY >>>>>>>>>>>>>>>>>> */
 .library-section h4 {
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 30px;
 }
 
 .library-section h3 {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .library-section {
@@ -483,21 +478,20 @@ p {
 }
 
 .rightside-title-container {
-    padding-bottom: 10px;
+    background-color: green;
 }
 
 .rightside-title-toprow {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    background-color: red;
 }
 
 .rightside-title-toprow svg {
     transition: transform 0.2s ease-in-out;
     width: 35px;
     height: 35px;
-    margin-left: 6px;
+    background-color: blue;
 }
 
 .rightside-title-toprow .icon-circle .icon-arrow {
@@ -514,7 +508,6 @@ p {
     fill: #447B14;
     stroke: #447B14;
 }
-
 
 #library .section-content-wrapper {
     display: flex;
