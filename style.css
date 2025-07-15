@@ -478,7 +478,6 @@ p {
 }
 
 .rightside-title-container {
-    background-color: green;
 }
 
 .rightside-title-toprow {
@@ -486,14 +485,14 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    padding-left: 70px;
 }
 
 .rightside-title-toprow svg {
     transition: transform 0.2s ease-in-out;
     width: 35px;
     height: 35px;
-    background-color: blue;
+    padding-top: 74px;
 }
 
 .rightside-title-toprow .icon-circle .icon-arrow {
