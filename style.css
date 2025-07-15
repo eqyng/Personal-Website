@@ -482,8 +482,10 @@ p {
 }
 
 .rightside-title-toprow {
-    display: grid;
-    grid-template-columns: 1fr 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: red;
 }
 
