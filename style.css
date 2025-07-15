@@ -343,13 +343,13 @@ p {
     stroke-width: 2px;
 }
 
-.leftside-title-toprow a:hover .icon-arrow {
-    stroke: #ffffff;
+.leftside-title-toprow a:hover svg .icon-arrow .section-arrow{
+    stroke: #ffffff !important;
 }
 
-.leftside-title-toprow a:hover .icon-circle {
-    fill: #447B14;
-    stroke: #447B14;
+.leftside-title-toprow a:hover svg .icon-circle .section-arrow {
+    fill: #447B14 !important;
+    stroke: #447B14 !important;
 }
 
 .leftside-title-container h2 {
