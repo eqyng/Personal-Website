@@ -335,22 +335,22 @@ p {
     width: 35px;
     height: 35px;
     margin-left: 6px;
-}
-
-.leftside-title-toprow .icon-circle .icon-arrow {
-    fill: none;
-    stroke: none;
     stroke-width: 2px;
 }
 
-.leftside-title-toprow a:hover svg .icon-arrow .section-arrow{
-    stroke: #ffffff !important;
+.leftside-title-toprow a:hover svg {
+    background-color: blue;
 }
 
-.leftside-title-toprow a:hover svg .icon-circle .section-arrow {
+/*.leftside-title-toprow a:hover svg {
+    --stroke-color: #ffffff;
+    --fill-color: #447B14;
+}*/
+
+/*.leftside-title-toprow a:hover svg {
     fill: #447B14 !important;
-    stroke: #447B14 !important;
-}
+    stroke: #ffffff;
+}*/
 
 .leftside-title-container h2 {
     margin-top: -15px;
