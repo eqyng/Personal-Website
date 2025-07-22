@@ -8,6 +8,7 @@ const TEMPLATE_FILE = '/gh-test-article.html';
 function extractMetadata(content) {
     const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---\n/);
     if (!frontmatterMatch) return { title: 'Untitled', date: 'no date', readTime: 'infinity', byline: 'A mysterious article', icon: 'N/A', tags: 'nope', excerpt: 'none here'};
+}
 
 
 
