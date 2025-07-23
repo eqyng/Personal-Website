@@ -43,16 +43,11 @@ function extractMetadata(content) {
         excerpt: metadata.excerpt || 'none here',
     };
 
-
-    
-/*  
-// Function to convert markdown to HTML
-function markdownToHtml(markdown) {
+function markdownToHtml(markdown) { //Function to convert markdown to HTML
     return marked.parse(markdown);
 }
 
-// Function to generate article HTML
-function generateArticleHtml(article, filename) {
+function generateArticleHtml(article, filename) { // Function to generate article HTML
     const template = fs.readFileSync(TEMPLATE_FILE, 'utf8');
     const htmlContent = markdownToHtml(article.content);
     
@@ -88,4 +83,4 @@ function buildGlasshouse() {
     });
 }
 
-buildGlasshouse();*/
+buildGlasshouse();
