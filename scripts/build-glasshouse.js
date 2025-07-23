@@ -6,19 +6,26 @@ const CONTENT_DIR = 'test-content';
 const TEMPLATE_FILE = '/gh-test-article.html';      
 
 function extractMetadata(content) {
-    const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---\n/);
-    if (!frontmatterMatch) return { title: 'Untitled', date: 'no date', readTime: 'infinity', byline: 'A mysterious article', icon: 'N/A', tags: 'nope', excerpt: 'none here'};
+    const metadataBlock = content.match(/^---\n([\s\S]*?)\n---\n/);
+    if (!metadataBlock) 
+        return { 
+            title: 'Untitled', 
+            date: 'no date', 
+            readTime: 'infinity', 
+            byline: 'A mysterious article', 
+            icon: 'N/A', 
+            tags: 'nope', 
+            excerpt: 'none here'
+        };
 }
 
+    const metadata = metadataBlock[1];
+    const data = {};
 
 
 
 
-
-/*function extractMetadata(content) {
-    const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---\n/);
-    if (!frontmatterMatch) return { title: 'Untitled', date: '', readTime: '5 min read' };
-    
+/*  
     const frontmatter = frontmatterMatch[1];
     const metadata = {};
     
