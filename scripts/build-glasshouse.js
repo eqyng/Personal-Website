@@ -7,13 +7,13 @@ const TEMPLATE_FILE = '/gh-test-article.html';
 
 function extractMetadata(content) {
     const metadataBlock = content.match(/^---\n([\s\S]*?)\n---\n/);
-    if (!metadataBlock) 
+    if (!metadataBlock) //default values where NO metadata exists
         return { 
-            title: 'Untitled', 
+            title: 'untitled', 
             date: 'no date', 
             readTime: 'infinity', 
-            byline: 'A mysterious article', 
-            icon: 'N/A', 
+            byline: 'a mysterious article', 
+            icon: 'n/a', 
             tags: 'nope', 
             excerpt: 'none here'
         };
@@ -22,29 +22,30 @@ function extractMetadata(content) {
     const metadata = metadataBlock[1];
     const data = {};
 
-
-
-
-/*  
-    const frontmatter = frontmatterMatch[1];
-    const metadata = {};
-    
-    frontmatter.split('\n').forEach(line => {
+    metadataBlock.split('\n').forEach
+    (line => 
+        {
         const [key, ...valueParts] = line.split(':');
-        if (key && valueParts.length > 0) {
-            metadata[key.trim()] = valueParts.join(':').trim();
+        if (key && valueParts.length > 0) 
+            {
+            data[key.trim()] = valueParts.join(':').trim();
+            }
         }
-    });
-    
-    return {
-        title: metadata.title || 'Untitled',
-        date: metadata.date || '',
-        readTime: metadata.readTime || '5 min read',
-        excerpt: metadata.excerpt || '',
-        icon: metadata.icon || 'seedling'
-    };
-}
+    );
 
+    return { //default values where SOME metadata exists
+        title: metadata.title || 'untitled',
+        date: metadata.date || 'no date',
+        readTime: metadata.readTime || 'infinity',
+        byline: 'a mysterious article',
+        icon: metadata.icon || 'n/a',
+        tags: metadata.tags || 'nope',
+        excerpt: metadata.excerpt || 'none here',
+    };
+
+
+    
+/*  
 // Function to convert markdown to HTML
 function markdownToHtml(markdown) {
     return marked.parse(markdown);
