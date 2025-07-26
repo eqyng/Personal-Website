@@ -3,7 +3,7 @@ const path = require('path');
 const marked = require('marked');
 
 const CONTENT_DIR = 'test-content';
-const TEMPLATE_FILE = '/gh-test-article.html';      
+const TEMPLATE_FILE = 'gh-test-article.html';      
 
 function extractMetadata(content) {
     const metadataBlock = content.match(/^---\n([\s\S]*?)\n---\n/);
@@ -17,31 +17,33 @@ function extractMetadata(content) {
             tags: 'nope', 
             excerpt: 'none here'
         };
-}
+    
+        //default values where SOME metadata exists
+        const metadata = metadataBlock[1];
+        const data = {};
 
-    const metadata = metadataBlock[1];
-    const data = {};
-
-    metadataBlock.split('\n').forEach
-    (line => 
-        {
-        const [key, ...valueParts] = line.split(':');
-        if (key && valueParts.length > 0) 
+        return data;
+        metadataBlock.split('\n').forEach
+        (line => 
             {
-            data[key.trim()] = valueParts.join(':').trim();
+            const [key, ...valueParts] = line.split(':');
+            if (key && valueParts.length > 0) 
+                {
+                data[key.trim()] = valueParts.join(':').trim();
+                }
             }
-        }
-    );
+        );
 
-    return { //default values where SOME metadata exists
-        title: metadata.title || 'untitled',
-        date: metadata.date || 'no date',
-        readTime: metadata.readTime || 'infinity',
-        byline: 'a mysterious article',
-        icon: metadata.icon || 'n/a',
-        tags: metadata.tags || 'nope',
-        excerpt: metadata.excerpt || 'none here',
-    };
+        return { //default values where SOME metadata exists
+            title: metadata.title || 'untitled',
+            date: metadata.date || 'no date',
+            readTime: metadata.readTime || 'infinity',
+            byline: 'a mysterious article',
+            icon: metadata.icon || 'n/a',
+            tags: metadata.tags || 'nope',
+            excerpt: metadata.excerpt || 'none here',
+        };
+    }
 
 function markdownToHtml(markdown) { //Function to convert markdown to HTML
     return marked.parse(markdown);
