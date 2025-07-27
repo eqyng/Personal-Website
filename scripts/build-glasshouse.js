@@ -17,13 +17,12 @@ function extractMetadata(content) {
             tags: 'nope', 
             excerpt: 'none here'
         };
-    
+    } 
         //default values where SOME metadata exists
         const metadata = metadataBlock[1];
         const data = {};
 
-        return data;
-        metadataBlock.split('\n').forEach
+        metadata.split('\n').forEach
         (line => 
             {
             const [key, ...valueParts] = line.split(':');
@@ -35,15 +34,14 @@ function extractMetadata(content) {
         );
 
         return { //default values where SOME metadata exists
-            title: metadata.title || 'untitled',
-            date: metadata.date || 'no date',
-            readTime: metadata.readTime || 'infinity',
-            byline: 'a mysterious article',
-            icon: metadata.icon || 'n/a',
-            tags: metadata.tags || 'nope',
-            excerpt: metadata.excerpt || 'none here',
+            title: data.title || 'untitled',
+            date: data.date || 'no date',
+            readTime: data.readTime || 'infinity',
+            byline: data.byline || 'a mysterious article',
+            icon: data.icon || 'n/a',
+            tags: data.tags || 'nope',
+            excerpt: data.excerpt || 'none here',
         };
-    }
 
 function markdownToHtml(markdown) { //Function to convert markdown to HTML
     return marked.parse(markdown);
