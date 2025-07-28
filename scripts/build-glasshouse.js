@@ -18,6 +18,7 @@ function extractMetadata(content) {
             excerpt: 'none here'
         };
     } 
+    
         //default values where SOME metadata exists
         const metadata = metadataBlock[1];
         const data = {};
