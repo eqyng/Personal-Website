@@ -7,7 +7,7 @@ const TEMPLATE_FILE = 'gh-test-article.html';
 
 function extractMetadata(content) {
     const metadataBlock = content.match(/^---\n([\s\S]*?)\n---\n/);
-    if (!metadataBlock) //default values where NO metadata exists
+    if (!metadataBlock) { // default values where NO metadata exists
         return { 
             title: 'untitled', 
             date: 'no date', 
@@ -17,32 +17,29 @@ function extractMetadata(content) {
             tags: 'nope', 
             excerpt: 'none here'
         };
-    } 
+    }
     
-        //default values where SOME metadata exists
-        const metadata = metadataBlock[1];
-        const data = {};
+    // This code now stays inside the function
+    const metadata = metadataBlock[1];
+    const data = {};
 
-        metadata.split('\n').forEach
-        (line => 
-            {
-            const [key, ...valueParts] = line.split(':');
-            if (key && valueParts.length > 0) 
-                {
-                data[key.trim()] = valueParts.join(':').trim();
-                }
-            }
-        );
+    metadata.split('\n').forEach(line => {
+        const [key, ...valueParts] = line.split(':');
+        if (key && valueParts.length > 0) {
+            data[key.trim()] = valueParts.join(':').trim();
+        }
+    });
 
-        return { //default values where SOME metadata exists
-            title: data.title || 'untitled',
-            date: data.date || 'no date',
-            readTime: data.readTime || 'infinity',
-            byline: data.byline || 'a mysterious article',
-            icon: data.icon || 'n/a',
-            tags: data.tags || 'nope',
-            excerpt: data.excerpt || 'none here',
-        };
+    return { // default values where SOME metadata exists
+        title: data.title || 'untitled',
+        date: data.date || 'no date',
+        readTime: data.readTime || 'infinity',
+        byline: data.byline || 'a mysterious article',
+        icon: data.icon || 'n/a',
+        tags: data.tags || 'nope',
+        excerpt: data.excerpt || 'none here'
+    };
+}
 
 function markdownToHtml(markdown) { //Function to convert markdown to HTML
     return marked.parse(markdown);
