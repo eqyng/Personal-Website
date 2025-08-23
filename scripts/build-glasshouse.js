@@ -6,7 +6,7 @@ const CONTENT_DIR = 'test-content';
 const TEMPLATE_FILE = 'gh-test-article.html';      
 
 function extractMetadata(content) {
-    const metadataBlock = content.match(/^---\n([\s\S]*?)\n---\n/);
+    const metadataBlock = content.match(/^--\n([\s\S]*?)\n--\n/);
     if (!metadataBlock) { // default values where NO metadata exists
         return { 
             title: 'untitled', 
